@@ -6,7 +6,7 @@ function createMainCard(game) {
 
   return `
   
-    <div class=" card mt-5 rounded-3" style="min-width: 30rem">
+    <div class=" card mt-5 rounded-3" style="min-width: 28rem">
 
       <div class="image-wrapper">
 
