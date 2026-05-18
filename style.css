@@ -3,6 +3,17 @@ body {
   font-weight: 500;
   font-style: normal;
 }
+.featured-card{
+    min-width: 33rem;
+}
+
+@media (max-width: 768px){
+
+    .featured-card{
+        min-width: 90%;
+    }
+
+}
 .navbar{
     position: sticky;
     top: 0px;
