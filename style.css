@@ -12,6 +12,8 @@ body {
     .featured-card{
         min-width: 90%;
     }
+  .card-bottom{
+    display: block!important;
 }
 .navbar{
     position: sticky;
