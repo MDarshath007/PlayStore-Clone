@@ -1,0 +1,134 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlayStore Clone</title>
+    <link rel="icon" href="PlayStoreIcon.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body>
+<!-- NAV BAR -->
+
+    <nav class="navbar navbar-expand-lg bg-white px-3">
+
+  <!-- Logo -->
+  <a class="navbar-brand fs-4" href="index.html" style="color: rgb(99, 99, 99)">
+    <img
+      class="me-1"
+      src="PlayStoreIcon.png"
+      alt=""
+      height="45"
+    />
+    Google Play
+  </a>
+
+  <!-- Hamburger -->
+  <button
+    class="navbar-toggler border-0"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarMenu"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible Content -->
+  <div class="collapse navbar-collapse" id="navbarMenu">
+
+    <!-- Nav Links -->
+    <ul class="navbar-nav gap-lg-5 ms-4">
+      <li class="nav-item">
+        <a class="nav-link" href="">Action</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="">Sports</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="">Shooter</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="">Strategy</a>
+      </li>
+    </ul>
+
+    <!-- Search -->
+    <form class="d-flex ms-lg-auto mt-lg-0">
+      <input
+        class="search-bar form-control mt-3 me-2"
+        type="search"
+        placeholder="Search"
+      />
+
+      <button
+        class="search-btn btn btn-outline-none mt-3 fs-6"
+        type="submit"
+      >
+        🔍︎
+      </button>
+    </form>
+
+  </div>
+</nav>
+
+<!-- MAIN PAGE -->
+
+ <!-- PLATFORMS -->
+
+ 
+ <div class="platfroms container gap-3 d-flex justify-content-start align-items-center mt-4">
+   <button class="platform-btn rounded-pill p-1 px-3 border-0 fw-normal" data-platform="PC (Windows)">🖳 Windows</button>
+   <button class="platform-btn rounded-pill p-1 px-3 border-0 fw-normal" data-platform="Web Browser">◍ Web Browser</button>
+  </div>
+  <div class="main-page">
+
+    <!-- MAIN CARD -->
+
+    <div id="main-container" class="main-container container d-flex flex-nowrap gap-4 overflow-auto"></div>
+
+    <!-- ACTION CARD -->
+
+    <h3 class="container mt-5">Action Games</h3> 
+    <div id="action-container" class="container rounded-6 d-flex flex-nowrap gap-4 overflow-auto"></div> 
+
+    <!-- SPORTS CARD -->
+
+    <h3 class="container mt-5">Sports Games</h3> 
+    <div id="sports-container" class="container rounded-6 d-flex flex-nowrap gap-4 overflow-auto "></div>
+
+    <!-- Card-Games CARD -->
+
+    <h3 class="container mt-5">Card Games</h3> 
+    <div id="card-games-container" class="container rounded-6 d-flex flex-nowrap gap-4 overflow-auto "></div>
+    
+  </div> 
+
+    <!-- Page that comes when searching the keyword "Games"-->
+
+     <div class="searched-games container d-flex flex-wrap gap-4">
+         <!-- <div class="card border-0 rounded-2 mt-5" style="width: 26rem;">
+          <img src="GameImages/SoloLeveling.png" class="card-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the bulk of the card’s content.
+            </p>
+          </div>
+        </div>  -->
+      </div> 
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+
+</html>

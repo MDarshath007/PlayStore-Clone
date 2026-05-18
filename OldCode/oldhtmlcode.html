@@ -1,0 +1,160 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlayStore Clone</title>
+    <link rel="icon" href="PlayStoreIcon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+<!-- NAV BAR -->
+
+    <nav class="navbar">
+      <div class="navbar-collapse d-flex justify-content-between align-items-center w-100" id="navbarTogglerDemo03">
+        <a
+          class="navbar-brand fw-semibold fs-4 me-4"
+          href="#"
+          style="color: rgb(99, 99, 99)"
+          ><img class="ms-4 me-2" src="PlayStoreIcon.png" alt="" height="45" />Google Play</a>
+        <div class="navbar-collapse d-flex ms-2" id="navbarTogglerDemo03">
+          <ul class="navbar-nav flex-row gap-5 me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#">Action</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#">Racing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#">Shooter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#">Strategy</a>
+            </li>
+          </ul>
+          <form class="d-flex my-2" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+        <button class="btn btn-outline-none my-2 my-sm-0" type="submit">
+          🔍︎
+        </button>
+      </div>
+    </nav>
+
+<!-- MAIN PAGE -->
+
+ <!-- PLATFORMS -->
+
+    <div class="main-page">
+      <div class="platfroms container gap-3 d-flex justify-content-start align-items-center mt-4">
+      <button class="platform-btn rounded-pill p-1 px-3 border-0">🖳 Windows</button>
+      <button class="platform-btn rounded-pill p-1 px-3 border-0">◍ Web Browser</button>
+    </div>
+
+    <!-- MAIN CARD -->
+
+      <div id="main-container" class="main-container container d-flex flex-nowrap gap-4 overflow-auto">
+      <!-- <div class="card mt-5 rounded-3" style="min-width: 33rem">
+        <div class="image-wrapper">
+          <img src="SoloLeveling.png" class="card-img-top rounded-top-3" alt="..."/>
+        </div>
+        <div class="card-body bg-black text-white rounded-bottom-3">
+          <h5 class="card-title fs-4">Play Solo Leveling: Arise</h5>
+          <p class="card-text">Get started with Google Play Games</p>
+          <div
+            class="card-bottom d-flex justify-content-between align-items-center"
+          >
+            <div class="card-name">
+              <img src="GameIcon.png" alt="Game Icon" class="me-2" />
+              <span class="fw-semibold fs-5">Solo Leveling: Arise</span>
+            </div>
+            <a
+              href="#"
+              class="install-btn btn btn-success wd-100 text-black rounded-pill px-4 border-0"
+              style="background-color: #27f5a9"
+              >Install on windows</a
+            >
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- ACTION CARD -->
+
+    <h3 class="container mt-5">Action Games</h3> 
+   <div id="action-container" class="container rounded-6 d-flex flex-nowrap gap-4 overflow-auto">
+      <!--<div class="card border-0 rounded-2" style="min-width: 26rem">
+        <img src="ActionImage.png" class="card-img-bottom" alt="..." />
+        <div class="card-body border-0">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            A free to play fantasy MMORPG with tons of social features
+          </p>  
+        </div>
+      </div>-->
+    </div> 
+
+    <!-- SPORTS CARD -->
+
+     <h3 class="container mt-5">Sports Games</h3> 
+    <div id="sports-container" class="container rounded-6 d-flex flex-nowrap gap-4 overflow-auto ">
+      <!--<div class="card border-0 rounded-2" style="min-width: 26rem">
+        <img src="ActionImage.png" class="card-img-bottom" alt="..." />
+        <div class="card-body border-0">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            A free to play fantasy MMORPG with tons of social features
+          </p>  
+        </div>
+      </div>-->
+    </div>
+
+    <!-- Card-Games CARD -->
+
+    <h3 class="container mt-5">Card Games</h3> 
+    <div id="card-games-container" class="container rounded-6 d-flex flex-nowrap gap-4 overflow-auto "> 
+      <!--<div class="card border-0 rounded-2" style="min-width: 26rem">
+        <img src="ActionImage.png" class="card-img-bottom" alt="..." />
+        <div class="card-body border-0">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            A free to play fantasy MMORPG with tons of social features
+          </p>  
+        </div>
+      </div>
+    </div>
+    </div> -->
+
+    <!-- Page that comes when searching the keyword "Games"-->
+
+      <!-- <div class="container searched-games d-flex flex-wrap gap-4">
+        <div class="card border-0 rounded-2 mt-5" style="width: 26rem;">
+          <img src="ActionImage.png" class="card-img-bottom" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          </div>
+        </div>
+      </div> -->
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+  <script src="oldjscode.js"></script>
+</html>

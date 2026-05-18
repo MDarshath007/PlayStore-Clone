@@ -1,0 +1,74 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1000;}
+.search-btn{
+    height:38px;
+}
+.image-wrapper{
+    position: relative;
+}
+.image-wrapper .card-img-top{
+    display: block;
+    width: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.image-wrapper::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0)
+    );
+
+    pointer-events: none;
+}
+.card-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.main-container{
+    display: block;
+}
+.platform-btn{
+    font-weight:500;
+    color: #056449;
+    background-color: #e6f3ef;
+}
+.platform-btn:hover{
+    background-color: #dde9e6;
+}
+.install-btn{
+    background-color: #27f5a9; 
+    flex-shrink: 0;
+    border: none
+}
+.install-btn:hover{
+    background-color: #1cc386;
+}
+.card-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+}
+.card-name span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
