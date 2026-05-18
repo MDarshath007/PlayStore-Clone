@@ -234,43 +234,42 @@ searchBtn.addEventListener("click", (e) => {
   const searchValue =
     searchBar.value.toLowerCase().trim();
 
+  let filteredGames;
+
   if(searchValue === "")
   {
-    return;
+    alert("Enter a Game name")
+
+  return;
+    }
+  else
+  {
+    filteredGames = allGames.filter(game =>
+
+      game.title
+        .toLowerCase()
+        .includes(searchValue)
+
+      ||
+
+      game.genre
+        .toLowerCase()
+        .includes(searchValue)
+
+      ||
+
+      searchValue.includes(
+        game.genre.toLowerCase()
+      )
+
+    );
   }
 
-  const filteredGames =
-  allGames.filter(game =>
-
-    game.title
-      .toLowerCase()
-      .includes(searchValue)
-
-    ||
-
-    game.genre
-      .toLowerCase()
-      .includes(searchValue)
-
-    ||
-
-    searchValue.includes(
-      game.genre.toLowerCase()
-    )
-
-  );
+  // IF NOTHING FOUND → SHOW ALL GAMES
 
   if(filteredGames.length === 0)
   {
-    platFormResult.innerHTML =
-      "<h2 class='mt-5'>No games found</h2>";
-
-    document.querySelector(".main-page")
-      .style.display = "none";
-
-    platFormResult.style.display = "flex";
-
-    return;
+    filteredGames = allGames;
   }
 
   let cards = "";
