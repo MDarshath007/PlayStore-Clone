@@ -24,7 +24,7 @@
   <li> localStorage integration</li>
 </ul>
 
-<img width="1920" height="1080" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/72a4c604-43ef-4402-86d0-4b22bc9d958b" />
-
 The biggest thing I learned from this project was how important reusable functions and clean frontend structure are while building applications.
 Still learning and building more projects 🚀
+
+<img width="1920" height="1080" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/72a4c604-43ef-4402-86d0-4b22bc9d958b" />
