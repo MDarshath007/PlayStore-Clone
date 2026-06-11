@@ -13,7 +13,9 @@ Challenges I faced:
   <li>Responsive layout issues on mobile</li>
   <li>Messy repetitive code that needed optimization</li>
 </ul>
+
 After several fixes and restructuring, I managed to build features like:
+
 <ul>
   <li>Dynamic game data using FreeToGame API</li>
   <li>Search, category & platform filtering</li>
