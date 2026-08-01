@@ -13,15 +13,13 @@ Built a Google Play Store inspired web app using HTML, CSS, Bootstrap, and JavaS
 - Game details page
 - Real-time game data from the FreeToGame API
 
-<h3>After several fixes and restructuring, I managed to build features like:</h3>
+## Technologies Used
 
-<ul>
-  <li>Dynamic game data using FreeToGame API</li>
-  <li>Search, category & platform filtering</li>
-  <li>Responsive UI</li>
-  <li>Individual game details page</li>
-  <li> localStorage integration</li>
-</ul>
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript (ES6+)
+- FreeToGame API
 
 The biggest thing I learned from this project was how important reusable functions and clean frontend structure are while building applications.
 Still learning and building more projects 🚀
