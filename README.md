@@ -7,11 +7,12 @@ Built a Google Play Store inspired web app using HTML, CSS, Bootstrap, and JavaS
 <h3>Challenges I faced:</h3>
 
 <ul>
-  <li>CORS issues while fetching API data</li>
-  <li>Search and category filters breaking the UI</li>
-  <li>Problems with localStorage between pages</li>
-  <li>Responsive layout issues on mobile</li>
-  <li>Messy repetitive code that needed optimization</li>
+- Responsive design
+- Browse games
+- Search games
+- Category filtering
+- Game details page
+- Real-time game data from the FreeToGame API
 </ul>
 
 <h3>After several fixes and restructuring, I managed to build features like:</h3>
