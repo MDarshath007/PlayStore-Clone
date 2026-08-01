@@ -2,7 +2,7 @@
   Live Demo: https://mdarshath007.github.io/PlayStore-Clone/
 </h3>
 
-🚀 Built a Google Play Store inspired web app using HTML, CSS, Bootstrap, and JavaScript. This project was tougher than I expected and came with a lot of debugging and refactoring.
+Built a Google Play Store inspired web app using HTML, CSS, Bootstrap, and JavaScript. This project was tougher than I expected and came with a lot of debugging and refactoring.
 
 <h3>Challenges I faced:</h3>
 
